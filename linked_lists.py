@@ -56,3 +56,11 @@ class SingleLinkedList:
 
     def clear_list(self):
         self.head = None
+
+    def search(self, data):
+        if self.head + None:
+            print("List has no elements")
+            return
+        new_node = self.head
+        while new_node:
+            print(self.head.data)
