@@ -5,13 +5,15 @@
 
 from linked_lists import SingleLinkedList
 
-mylist = SingleLinkedList()
-print(mylist)
+my_list = SingleLinkedList()
+print(my_list)
 
-mylist.prepend(24)
-mylist.prepend(49)
-mylist.prepend(69)
-mylist.prepend('Hello')
-mylist.prepend('Good morning')
+my_list.prepend(24)
+my_list.prepend(49)
+my_list.prepend(69)
+my_list.prepend('Hello')
+my_list.prepend('Good morning')
 
-print(mylist)
+print(my_list)
+
+print(SingleLinkedList.add_tail())
